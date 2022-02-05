@@ -3,7 +3,13 @@ import React from 'react'
 import zentai from '../images/zentai.jpg'
 import hall from '../images/access-taitohall.jpeg'
 import kiito_senzai from '../images/kiito_senzai_edit.jpg'
-import access from '../images/access.jpg'
+import ol01 from '../images/ol01.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faTwitter,
+  faYoutube,
+  faFacebook,
+} from '@fortawesome/free-brands-svg-icons'
 
 class Main extends React.Component {
   render() {
@@ -29,9 +35,31 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">CancaoNova</h2>
+          <h2>
+            CancaoNova
+            <a
+              href="https://twitter.com/cancaonovachor"
+              style={{ marginRight: '13px', marginLeft: '25px' }}
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+            <a
+              href="https://ja-jp.facebook.com/cancaonova.chorus/"
+              style={{ marginRight: '13px' }}
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCyySqK-CQoeet4zudxY7dWQ"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faYoutube} />
+            </a>
+          </h2>
           <span className="image-main main">
-            <img src={kiito_senzai} alt="" />
+            <img src={zentai} alt="" />
           </span>
           <p>
             2016年7月創団、団名はポルトガル語で”新しい歌”。あっと驚くような合唱活動を志す合唱集団。
@@ -61,10 +89,25 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Ohta Laboratory</h2>
+          <h2>
+            Ohta Laboratory
+            <a
+              href="https://twitter.com/speranzaoriente"
+              style={{ marginRight: '13px', marginLeft: '25px' }}
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCuHvZyclSnqWB7AGmXGZVdA"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faYoutube} />
+            </a>
+          </h2>
           <div class="youtube">
             <span className="image-main main">
-              <img src={kiito_senzai} alt="" />
+              <img src={ol01} alt="" />
             </span>
           </div>
           <p>OhtaLabsの紹介文をここに記載する</p>
