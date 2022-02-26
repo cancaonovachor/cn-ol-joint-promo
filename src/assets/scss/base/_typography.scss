@@ -164,21 +164,21 @@ h6 {
 
 @include breakpoint(small) {
   h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.4;
   }
 
   h2 {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     line-height: 1.5;
   }
   h3 {
-    font-size: 0.6rem;
+    font-size: 1rem;
   }
   p {
     margin: 0 0 0.8rem 0;
     font-family: _font(family-japan);
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
