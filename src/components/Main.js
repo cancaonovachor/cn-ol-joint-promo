@@ -4,6 +4,7 @@ import zentai from '../images/zentai.jpg'
 import hall from '../images/access-taitohall.jpeg'
 import kiito_senzai from '../images/kiito_senzai_edit.jpg'
 import ol01 from '../images/ol01.png'
+import chirashi from '../images/chirashi.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faTwitter,
@@ -228,7 +229,7 @@ class Main extends React.Component {
           {close}
         </article>
 
-        <article
+        {/* <article
           id="stage"
           className={`${this.props.article === 'stage' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -292,6 +293,22 @@ class Main extends React.Component {
             <br></br>・Ave Maria (BIEBL, Franz)
             <br></br>etc...
           </p>
+          {close}
+        </article> */}
+        <article
+          id="stage"
+          className={`${this.props.article === 'stage' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Stage</h2>
+          <span className="image-main main">
+            <img src={chirashi} alt="" />
+          </span>
+          <h3>ステージ情報</h3>
+          <p>Coming Soon!</p>
+
           {close}
         </article>
 
