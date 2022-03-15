@@ -229,7 +229,7 @@ class Main extends React.Component {
           {close}
         </article>
 
-        {/* <article
+        <article
           id="stage"
           className={`${this.props.article === 'stage' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -237,65 +237,53 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Stage</h2>
-          <span className="image-main main">
-            <img src={kiito_senzai} alt="" />
-          </span>
-          <h3>1st Stage: Repertoire Exchange</h3>
+
+          <h3>1st Stage: レパートリー交換</h3>
           <p>
-            ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文
+            ２団体のレパートリーを演奏します。２団体らしい演奏をお楽しみください。
           </p>
           <p>
             演奏予定曲：
-            <br></br>・Laudate Dominum (GYONGYOSI, Levente)
-            <br></br>・Pseudo Yoik (Mäntyjärvi, Jaakko)
-            <br></br>・Ave Maria (BIEBL, Franz)
+            <br></br>・Bob Chilcott - Thou, my love, art fair
+            <br></br>・高嶋みどり - 白鳥　他
             <br></br>etc...
           </p>
-          <span className="image-main main">
-            <img src={kiito_senzai} alt="" />
-          </span>
-          <h3>2nd Stage: OL単独</h3>
+          <br></br>
+          <h3>2nd Stage: Ohta Laboratory単独</h3>
           <p>
-            ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文
+            Ohta
+            Laboratoryによるフランス楽曲演奏です。混声アンサンブルによるフランス音楽の味わい深い響きをお楽しみください。
           </p>
           <p>
             演奏予定曲：
-            <br></br>・Laudate Dominum (GYONGYOSI, Levente)
-            <br></br>・Pseudo Yoik (Mäntyjärvi, Jaakko)
-            <br></br>・Ave Maria (BIEBL, Franz)
+            <br></br>・Pierre Villette - O magnum mysterium
             <br></br>etc...
           </p>
-          <span className="image-main main">
-            <img src={kiito_senzai} alt="" />
-          </span>
-          <h3>3rd Stage: CN単独</h3>
+          <br></br>
+          <h3>3rd Stage: CancaoNova単独</h3>
           <p>
-            ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文
+            CancaoNovaによるフランス楽曲演奏です。プーランクの神秘的なサウンドとユーモアをお楽しみください。
           </p>
           <p>
             演奏予定曲：
-            <br></br>・Laudate Dominum (GYONGYOSI, Levente)
-            <br></br>・Pseudo Yoik (Mäntyjärvi, Jaakko)
-            <br></br>・Ave Maria (BIEBL, Franz)
+            <br></br>・Francis Poulenc - Quatre petites prières de saint
+            François d'Assise
             <br></br>etc...
           </p>
-          <span className="image-main main">
-            <img src={kiito_senzai} alt="" />
-          </span>
-          <h3>4th Stage: 合同</h3>
+          <br></br>
+          <h3>4th Stage: 合同演奏</h3>
           <p>
-            ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文ステージ紹介文
+            ２団体によるフランス楽曲合同演奏です。フランドル楽曲から近現代までフランス音楽の旅をお届けします。
           </p>
           <p>
             演奏予定曲：
-            <br></br>・Laudate Dominum (GYONGYOSI, Levente)
-            <br></br>・Pseudo Yoik (Mäntyjärvi, Jaakko)
-            <br></br>・Ave Maria (BIEBL, Franz)
+            <br></br>・Josquin des prez - Ave Maria
+            <br></br>・Olivier Messiaen - O sacrum convivium
             <br></br>etc...
           </p>
           {close}
-        </article> */}
-        <article
+        </article>
+        {/* <article
           id="stage"
           className={`${this.props.article === 'stage' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -310,7 +298,7 @@ class Main extends React.Component {
           <p>Coming Soon!</p>
 
           {close}
-        </article>
+        </article> */}
 
         <article
           id="access"
