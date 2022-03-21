@@ -66,9 +66,9 @@ const Header = props => {
           <h2 style={{ margin: 0 }}>Joint Concert</h2>
           <h1>～ Voyage en France～</h1>
           {breakpoints.md ? (
-            <h2>2022.5.8(sut) 16:00- (open 15:30)</h2>
+            <h2>2022.5.8(Sun.) 16:00- (open 15:30)</h2>
           ) : (
-            <h3>2022.5.8(sut) 16:00- (open 15:30)</h3>
+            <h3>2022.5.8(Sun.) 16:00- (open 15:30)</h3>
           )}
 
           {breakpoints.md ? (
