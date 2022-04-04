@@ -238,7 +238,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Stage</h2>
 
-          <h3>1st Stage: レパートリー交換</h3>
+          <h3>1st Stage: レパートリー交歓</h3>
           <p>
             ２団体のレパートリーを演奏します。２団体らしい演奏をお楽しみください。
           </p>
