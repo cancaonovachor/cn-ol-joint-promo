@@ -31,5 +31,6 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
     'gatsby-plugin-fontawesome-css',
+    'gatsby-plugin-use-query-params',
   ],
 }
