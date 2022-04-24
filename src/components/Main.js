@@ -249,10 +249,14 @@ const Main = props => {
           ２団体のレパートリーを演奏します。２団体らしい演奏をお楽しみください。
         </p>
         <p>
-          演奏予定曲：
+          <b>演奏曲：</b>
+          <br></br>・相澤直人 - アイスクリームのうた
+          <br></br>・武満徹 - 第２ヴォカリーズ
+          <br></br>・Ligeti György - The Alphabet
+          <br></br>・高嶋みどり - 露営のともしび
+          <br></br>・高嶋みどり - 白鳥
+          <br></br>・Lin, Ming-Chieh - Ave Maria
           <br></br>・Bob Chilcott - Thou, my love, art fair
-          <br></br>・高嶋みどり - 白鳥　他
-          <br></br>etc...
         </p>
         <br></br>
         <h3>2nd Stage: Ohta Laboratory単独</h3>
@@ -261,9 +265,12 @@ const Main = props => {
           Laboratoryによるフランス楽曲演奏です。混声アンサンブルによるフランス音楽の味わい深い響きをお楽しみください。
         </p>
         <p>
-          演奏予定曲：
+          <b>演奏曲：</b>
+          <br></br>・Francis Poulenc - O magnum mysterium
+          <br></br>・Francis Poulenc - Salve Regina
           <br></br>・Pierre Villette - O magnum mysterium
-          <br></br>etc...
+          <br></br>・Jacques Arcadelt - Il bianco e dolce cigno Send a message
+          to everyone
         </p>
         <br></br>
         <h3>3rd Stage: CancaoNova単独</h3>
@@ -271,10 +278,10 @@ const Main = props => {
           CancaoNovaによるフランス楽曲演奏です。プーランクの神秘的なサウンドとユーモアをお楽しみください。
         </p>
         <p>
-          演奏予定曲：
+          <b>演奏曲：</b>
           <br></br>・Francis Poulenc - Quatre petites prières de saint François
           d'Assise
-          <br></br>etc...
+          <br></br>・Francis Poulenc - Chanson à boire
         </p>
         <br></br>
         <h3>4th Stage: 合同演奏</h3>
@@ -282,10 +289,12 @@ const Main = props => {
           ２団体によるフランス楽曲合同演奏です。フランドル楽曲から近現代までフランス音楽の旅をお届けします。
         </p>
         <p>
-          演奏予定曲：
-          <br></br>・Josquin des prez - Ave Maria
-          <br></br>・Olivier Messiaen - O sacrum convivium
-          <br></br>etc...
+          <b>演奏曲：</b>
+          <br></br>・Adrian Willaert - Vecchie letrose
+          <br></br>・Josquin des Prez - Ave Maria
+          <br></br>・Claude Debussy - Yver, vous n'estes qu'un Villain
+          <br></br>・Olivier Messiaen - O Sacrum Convivium
+          <br></br>・三善晃 - 地球へのピクニック
         </p>
         {close}
       </article>
