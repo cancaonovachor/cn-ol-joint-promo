@@ -269,8 +269,7 @@ const Main = props => {
           <br></br>・Francis Poulenc - O magnum mysterium
           <br></br>・Francis Poulenc - Salve Regina
           <br></br>・Pierre Villette - O magnum mysterium
-          <br></br>・Jacques Arcadelt - Il bianco e dolce cigno Send a message
-          to everyone
+          <br></br>・Jacques Arcadelt - Il bianco e dolce cigno
         </p>
         <br></br>
         <h3>3rd Stage: CancaoNova単独</h3>
@@ -293,7 +292,7 @@ const Main = props => {
           <br></br>・Adrian Willaert - Vecchie letrose
           <br></br>・Josquin des Prez - Ave Maria
           <br></br>・Claude Debussy - Yver, vous n'estes qu'un Villain
-          <br></br>・Olivier Messiaen - O Sacrum Convivium
+          <br></br>・Olivier Messiaen - O Sacrum Convivium!
           <br></br>・三善晃 - 地球へのピクニック
         </p>
         {close}
