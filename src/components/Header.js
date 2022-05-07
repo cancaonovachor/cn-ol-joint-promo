@@ -99,7 +99,7 @@ const Header = props => {
               className="use-border"
               href="javascript:;"
               onClick={() => {
-                props.onOpenArticle('stage')
+                props.onOpenArticle('explanation')
               }}
             >
               Stage
