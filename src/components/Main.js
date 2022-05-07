@@ -365,13 +365,13 @@ const Main = props => {
 
         <h3>Lin, Ming-Chieh - Ave Maria </h3>
         <p>
-          台湾の作曲家Lin
+          台湾の作曲家Lin,
           Ming-Chiehによる現代宗教曲作品。ビート感に溢れ、テンションノートを多く含んだ輝かしいコード進行は、テキストのニュアンスをより現代的な祈りの喜びや躍動感へと昇華しているようにも思われる。
         </p>
 
         <h3>Bob Chilcott - Thou, my love, art fair </h3>
         <p>
-          イギリスのBob ChicottによりKings
+          イギリスのBob ChicottによりThe King’s
           Singersのために作曲された作品。「私の愛する貴方は美しい」と深い愛のテキストに、温かみのあるハーモニーが展開される。
         </p>
 
